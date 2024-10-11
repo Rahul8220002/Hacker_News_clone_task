@@ -31,6 +31,9 @@ const Authpages = () => {
         onSubmit={handleSubmit}
         className="w-25 h-75 d-flex flex-column justify-content-center align-content-center bg-secondary p-5 mt-2 rounded-2"
       >
+        <h2 className="mb-4 fw-semibold text-bg-secondary">
+          Hacker_News_Clone
+        </h2>
         <div className="mb-3 w-100">
           <label className="form-label">Email address</label>
           <input
